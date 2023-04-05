@@ -1,0 +1,81 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: grid;
+    place-items: center;
+    padding-top: 60px;
+}
+
+.col {
+    padding: 0px;
+}
+
+img {
+    height: 400px;
+    width: 300px;
+    box-sizing: content-box;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+p {
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+
+    box-sizing: border-box;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.row {
+
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+.heading {
+    font-size: 12px;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.quote {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    font-size: 20px;
+    padding: none;
+    word-wrap: wrap;
+}
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color:hsl(228, 12%, 48%);
+}
+
+.price{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: xx-large;
+    padding-bottom: 10px;
+}
+
+.priceWrong{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color:hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+button{
+    padding-top: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
